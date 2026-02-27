@@ -9,12 +9,14 @@ nếu dùng ai thì dùng mdel: gemini-3-flash-preview
 Trước khi bắt đầu làm việc, chúng ta thống nhất các nguyên tắc sau:
 
 Yêu cầu chính là phai đảm bảo chức năng không thay đổi, cam kết giữ nguyên 100% giao diện đã thiết kế khi tôi chưa cho phép
+yêu cầu bạn  trước khi chỉnh sửa bất kỳ tệp nào, sẽ luôn phải đọc nội dung của nó trước, không được xóa các logic các component đã hoạt động tốt
 
 1️⃣ Ứng dụng đang hoạt động ổn định
 
 Ứng dụng hiện tại đang chạy ổn định, vì vậy:
 
 Trước khi tạo bất kỳ component mới nào, bạn bắt buộc phải kiểm tra xem:
+
 
 Component tương tự đã tồn tại hay chưa
 
@@ -28,8 +30,7 @@ Chỉ tạo component mới khi thực sự cần thiết
 
 Với mọi đoạn code (dù do bạn viết hay tôi paste vào):
 
-Phải kiểm tra và cố gắng tách nhỏ thành các component tái sử dụng như:
-
+Phải kiểm tra và chỉ tách các component nho nhỏ và có khả năng dùng ở nhiều nơi :
 Button
 
 Card
@@ -117,7 +118,7 @@ Tận dụng tối đa ưu điểm của framework Next.js
 {
 tôi muốn thêm 1 component phù hợp với những thỏa thuận của chúng ta có:
 tôi muốn sửa trang create question phù hợp với những thỏa thuận của chúng ta có và có thể thay những coponent chúng ta đã có:
-
+tôi muốn sửa trang login phù hợp với những thỏa thuận của chúng ta có và vì logic tôi đã chuẩn bạn chỉ cần ánh xạ giao diện là ok
 tôi muốn dữ liệu trong component header là dữ liệu mềm, nghĩa là dữ liệu đươc lấy từ database mongo
 
 tôi muốn file lib này lấy navlink và cả footer luôn và lấy all data trong trang home, nên chỉ request 1 lần đến mông là mình lấy đủ dữ liệu
@@ -138,6 +139,7 @@ Chuyển file sang đúng chuẩn Next.js (App Router)
 Yêu cầu chính là phai đảm bảo chức năng không thay đổi, cam kết giữ nguyên 100% giao diện đã thiết kế khi tôi chưa cho phép
 
 KHÔNG thay đổi bất kỳ className nào (để đảm bảo giao diện không bị ảnh hưởng)
+
 
 Thực hiện các chuyển đổi sau:
 
