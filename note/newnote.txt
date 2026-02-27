@@ -118,9 +118,9 @@ Tận dụng tối đa ưu điểm của framework Next.js
 {
 tôi muốn thêm 1 component phù hợp với những thỏa thuận của chúng ta có:
 tôi muốn sửa trang create question phù hợp với những thỏa thuận của chúng ta có và có thể thay những coponent chúng ta đã có:
-tôi muốn sửa trang login phù hợp với những thỏa thuận của chúng ta có và vì logic tôi đã chuẩn bạn chỉ cần ánh xạ giao diện là ok
+tôi muốn sửa trang login phù hợp với những thỏa thuận của chúng ta có và vì logic tôi đã chuẩn rồi nên bạn chỉ cần ánh xạ giao diện là ok
 tôi muốn dữ liệu trong component header là dữ liệu mềm, nghĩa là dữ liệu đươc lấy từ database mongo
-
+tôi yêu cầu bạn, khi sửa phải đọc trước nội dung file cần sửa để có bản cập nhật mới nhất rồi mới sửa, không được xóa các logic,, các component đang hoạt động tốt
 tôi muốn file lib này lấy navlink và cả footer luôn và lấy all data trong trang home, nên chỉ request 1 lần đến mông là mình lấy đủ dữ liệu
 vẫn chưa được, bạn kiểm tra theo dòng data xem có khi nào nó bị ghi đè ở 1 dòng code nào đó, giống như khi data chuyển sang 1 coponent khác sẽ bị ghi đè là initial data
 bạn nên kiểm tra giá trị mong muốn nhận được và giá trị nhận được nhất là với trường select input
