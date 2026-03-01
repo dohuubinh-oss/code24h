@@ -1,1 +1,3 @@
 icon dùng lucide react, hỗ trợ đa màn hình: mobile, full hd, 2k 4k
+các cải tiến về SEO, performance
+dùng HOC để bảo vệ trang chống truy cập
