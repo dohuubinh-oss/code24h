@@ -1,3 +1,4 @@
 icon dùng lucide react, hỗ trợ đa màn hình: mobile, full hd, 2k 4k
 các cải tiến về SEO, performance
-dùng HOC để bảo vệ trang chống truy cập
+dùng axios có sử dụng interceptors kết hợp Với Middleware để bảo vệ route chống truy cập
+dùng access token (lưu trong state của react) và refesh token lưu trong cookie để xử lý đăng xuất đăng nhập
